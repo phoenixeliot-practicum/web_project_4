@@ -1,0 +1,16 @@
+@import './__image/profile__image.css';
+@import './__name-container/profile__name-container.css';
+@import './__name/profile__name.css';
+@import './__edit-button/profile__edit-button.css';
+@import './__description/profile__description.css';
+@import './__add-button/profile__add-button.css';
+
+.profile {
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 19px 36px;
+}
