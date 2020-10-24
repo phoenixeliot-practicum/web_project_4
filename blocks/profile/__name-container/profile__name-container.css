@@ -1,0 +1,19 @@
+.profile__name-container {
+  margin: 30px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Add a spacer on the left to center the text, given the button on the right */
+.profile__name-container::before {
+  height: 0;
+  width: 35px;
+  /* flex-basis: 35px; */
+  content: "";
+}
+
+@media (min-width: 620px) {
+  .profile__name-container::before {
+    display: none;
+  }
+}

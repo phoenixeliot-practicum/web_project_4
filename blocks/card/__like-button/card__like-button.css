@@ -1,0 +1,11 @@
+.card__like-button {
+  flex-shrink: 0;
+  width: 21px;
+  height: 19px;
+  padding: 0;
+  background-color: white;
+  background-image: url("../../../images/heart-icon.svg");
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
