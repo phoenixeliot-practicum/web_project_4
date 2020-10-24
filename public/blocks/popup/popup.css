@@ -1,0 +1,19 @@
+@import "./_opened/popup_opened.css";
+@import "./__title/popup__title.css";
+@import "./__save-button/popup__save-button.css";
+@import "./__input/popup__input.css";
+@import "./__container/popup__container.css";
+
+.popup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 19px;
+}
