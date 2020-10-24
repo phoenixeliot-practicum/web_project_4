@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "web_project_4",
+  "version": "0.0.1",
+  "description": "Practicum project 4",
+  "scripts": {
+    "hint": "htmlhint ./public/index.html",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoenixeliot-practicum/web_project_4.git"
+  },
+  "author": "Phoenix Eliot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phoenixeliot-practicum/web_project_4/issues"
+  },
+  "homepage": "https://github.com/phoenixeliot-practicum/web_project_4",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "htmlhint": "^0.11.0"
+  }
+}
