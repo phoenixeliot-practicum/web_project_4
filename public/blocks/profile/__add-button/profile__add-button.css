@@ -7,3 +7,9 @@
   padding: 17px;
   background-color: black;
 }
+
+@media (min-width: 600px) {
+  .profile__add-button {
+    width: 150px;
+  }
+}
