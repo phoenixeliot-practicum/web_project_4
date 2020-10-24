@@ -4,6 +4,7 @@
   align-items: center;
   justify-self: start;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 @media (min-width: 620px) {
