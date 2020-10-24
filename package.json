@@ -5,7 +5,7 @@
   "description": "Practicum project 4",
   "scripts": {
     "hint": "htmlhint ./public/index.html",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public -t true"
   },
   "repository": {
     "type": "git",
