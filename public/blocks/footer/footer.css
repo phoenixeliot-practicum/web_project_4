@@ -5,3 +5,9 @@
   line-height: 17px;
   color: #545454;
 }
+
+@media (min-width: 620px) {
+  .footer {
+    padding-top: 66px;
+  }
+}

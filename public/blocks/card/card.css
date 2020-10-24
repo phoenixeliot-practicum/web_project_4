@@ -1,9 +1,10 @@
 @import './__image/card__image.css';
 @import './__description/card__description.css';
+@import './__title/card__title.css';
 @import './__like-button/card__like-button.css';
 
 .card {
-  width: auto;
+  width: 282px;
   border-radius: 10px;
   overflow: hidden;
   font-family: Inter, sans-serif;
