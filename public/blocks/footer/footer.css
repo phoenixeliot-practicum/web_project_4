@@ -6,7 +6,7 @@
   color: #545454;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 920px) {
   .footer {
     padding-top: 66px;
   }

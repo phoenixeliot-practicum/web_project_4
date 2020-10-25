@@ -12,7 +12,7 @@
   content: "";
 }
 
-@media (min-width: 620px) {
+@media (min-width: 920px) {
   .profile__name-container::before {
     display: none;
   }

@@ -7,7 +7,7 @@
   flex-shrink: 0;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 920px) {
   .profile__info {
     align-items: start;
   }

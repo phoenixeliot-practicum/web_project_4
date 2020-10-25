@@ -9,7 +9,7 @@
   background-color: black;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 920px) {
   .profile__add-button {
     width: 150px;
   }

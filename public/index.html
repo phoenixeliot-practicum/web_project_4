@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="index.css">
   <title>Document</title>
 </head>
@@ -19,11 +20,11 @@
         <div class="profile__info">
           <div class="profile__name-container">
             <h1 class="profile__name">Jacques Cousteau</h1>
-            <button class="profile__edit-button"></button>
+            <button class="button button_inverted profile__edit-button"></button>
           </div>
           <p class="profile__description">Explorer</p>
         </div>
-        <button class="profile__add-button">
+        <button class="button button_inverted profile__add-button">
           <img src="images/plus-icon.svg">
         </button>
       </section>
@@ -76,14 +77,18 @@
       © 2020 Around The U.S.
     </footer>
   </div>
-  <div class="popup popup_opened">
+  <div class="popup">
     <div class="popup__container">
+      <button class="button popup__close-button"></button>
       <h3 class="popup__title">Edit Profile</h3>
-      <input type="text" class="popup__input" name="name">
-      <input type="text" class="popup__input" name="about">
-      <button class="popup__save-button">Save</button>
+      <form class="popup__form">
+        <input type="text" class="popup__input" name="name">
+        <input type="text" class="popup__input" name="description">
+        <button class="button popup__save-button">Save</button>
+      </form>
     </div>
   </div>
+  <script src="scripts/index.js" type="text/javascript"></script>
 </body>
 
 </html>
