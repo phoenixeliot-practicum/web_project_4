@@ -4,3 +4,10 @@
   font-weight: 500;
   flex-shrink: 1;
 }
+
+@media (min-width: 920px) {
+  .profile__name {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}

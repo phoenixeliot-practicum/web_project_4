@@ -1,0 +1,14 @@
+@import "./_inverted/button_inverted.css";
+
+.button {
+  cursor: pointer;
+
+  color: white;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 1);
+  transition: background-color 0.1s ease-out;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -8,6 +8,7 @@
 .profile__name-container::before {
   height: 0;
   width: 35px;
+  margin-top: 22px;
   /* flex-basis: 35px; */
   content: "";
 }

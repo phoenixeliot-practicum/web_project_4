@@ -4,3 +4,10 @@
   padding: 28px 27px 32px;
   border-bottom: 1px solid #545454;
 }
+@media (min-width: 920px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 27px;
+  }
+}

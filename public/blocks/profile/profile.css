@@ -19,6 +19,7 @@
 
 @media (min-width: 920px) {
   .profile {
+    padding-top: 40px;
     justify-content: space-between;
     flex-direction: row;
   }
