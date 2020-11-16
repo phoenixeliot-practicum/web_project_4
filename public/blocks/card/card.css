@@ -1,9 +1,11 @@
-@import './__image/card__image.css';
-@import './__description/card__description.css';
-@import './__title/card__title.css';
-@import './__like-button/card__like-button.css';
+@import "./__image/card__image.css";
+@import "./__description/card__description.css";
+@import "./__title/card__title.css";
+@import "./__like-button/card__like-button.css";
+@import "./__delete-button/card__delete-button.css";
 
 .card {
+  position: relative;
   width: 282px;
   border-radius: 10px;
   overflow: hidden;

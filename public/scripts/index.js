@@ -30,9 +30,11 @@ const initialCards = [
 ];
 
 function createCardNode(cardDatum) {
-  const cardNode = cardTemplate.content.cloneNode(true);
+  const cardNode = cardTemplate.content.cloneNode(true).children[0];
   cardNode.querySelector(".card__title").textContent = cardDatum.name;
   cardNode.querySelector(".card__image").setAttribute("src", cardDatum.link);
+  const deleteButton = cardNode.querySelector(".card__delete-button");
+  deleteButton.addEventListener("click", () => cardNode.remove());
   return cardNode;
 }
 
@@ -148,3 +150,10 @@ addButton.addEventListener("click", (event) => {
     input.value = "";
   });
 });
+
+// Delete button
+
+// Gets hooked up in createCardNode
+function deleteCard(event) {
+  event.currentTarget.closest(".card").remove();
+}
