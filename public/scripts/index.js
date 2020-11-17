@@ -157,3 +157,16 @@ addButton.addEventListener("click", (event) => {
 function deleteCard(event) {
   event.currentTarget.closest(".card").remove();
 }
+
+// Image lightbox
+
+const lightboxPopup = document.querySelector("#lightbox-popup");
+const lightboxImage = lightboxPopup.querySelector(".popup__image");
+const images = document.querySelectorAll(".card__image");
+images.forEach((image) => {
+  image.addEventListener("click", openImageLightbox);
+});
+function openImageLightbox(event) {
+  openPopup(lightboxPopup);
+  lightboxImage.setAttribute("src", event.currentTarget.getAttribute("src"));
+}
